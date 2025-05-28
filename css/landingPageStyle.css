@@ -172,3 +172,61 @@ footer {
 .quoteinp {
   width: 400px;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 2rem;
+  }
+
+  nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 1rem;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  section.features {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .feature {
+    padding: 1.5rem;
+  }
+
+  footer {
+    padding: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
